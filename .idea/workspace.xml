@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f52bee0-4253-402a-8ab0-0b63baf0b1dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/snow.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/HowLongUntil_dot_Christmas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HowLongUntil_dot_Christmas.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,13 +26,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -41,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605992300936</updated>
-      <workItem from="1605992302881" duration="1025000" />
+      <workItem from="1605992302881" duration="4405000" />
     </task>
     <servers />
   </component>
@@ -53,10 +57,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2337" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605992377599" />
-    <state x="2612" y="301" width="526" height="506" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605992600802">
+    <state x="2612" y="301" width="526" height="506" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605993789827">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2612" y="301" width="526" height="506" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605992600802" />
+    <state x="2612" y="301" width="526" height="506" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605993789827" />
     <state x="2664" y="452" width="432" height="204" key="Github.ShareDialog" timestamp="1605992413056">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
