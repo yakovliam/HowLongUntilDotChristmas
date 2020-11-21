@@ -3,6 +3,10 @@
 
 /* Formatting */
 
+body {
+  overflow: hidden; /* Hide scrollbars */
+}
+
 h1 {
   font-size: 50px;
   font-weight: 400;
