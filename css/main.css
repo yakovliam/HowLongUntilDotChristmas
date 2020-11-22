@@ -26,7 +26,10 @@ h1 {
 }
 
 .christmas-text {
-  font-family: 'Mountains Of Christmas', serif;
+  font-family: 'Mountains of Christmas';
+  font-style: normal;
+
+  font-weight: 700;
 }
 
 .christmas-text p {
