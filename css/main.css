@@ -25,6 +25,7 @@
 .inner-title {
   margin: auto;
   text-align: center;
+  padding-bottom: 10px;
 }
 
 #countdown {
