@@ -54,3 +54,7 @@
   display: table-cell;
   word-wrap: break-word;
 }
+
+#ending-text {
+  padding-bottom: 10px;
+}
