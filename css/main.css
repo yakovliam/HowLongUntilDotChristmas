@@ -49,3 +49,8 @@
 .txt {
   font-size: 3rem; color: wheat;
 }
+
+.wrapped {
+  display: table-cell;
+  word-wrap: break-word;
+}
