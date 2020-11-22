@@ -1,13 +1,19 @@
 /* Formatting */
 
-body html {
-  overflow: hidden;
+.hide-scroll::-webkit-scrollbar {
+  display: none;
 }
 
-h1 {
+.hide-scroll {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.title {
   font-size: 50px;
-  font-weight: 400;
+  font-weight: 700;
   font-family: Montserrat, sans-serif;
+  color: white;
 }
 
 .outer {
@@ -26,9 +32,7 @@ h1 {
 }
 
 .christmas-text {
-  font-family: 'Mountains of Christmas';
-  font-style: normal;
-
+  font-family: 'Mountains of Christmas', serif;
   font-weight: 700;
 }
 
@@ -39,9 +43,9 @@ h1 {
 }
 
 .num {
-  font-size: 10rem;
+  font-size: 10rem;  color: white;
 }
 
 .txt {
-  font-size: 3rem;
+  font-size: 3rem; color: wheat;
 }
