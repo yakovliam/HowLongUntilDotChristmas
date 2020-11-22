@@ -1,4 +1,4 @@
-let christmas = new Date("Dec 31 " + (new Date()).getFullYear());
+let christmas = new Date("Dec 25 " + (new Date()).getFullYear());
 
 const task = () => {
     let diff = new Date(christmas - Date.now());
