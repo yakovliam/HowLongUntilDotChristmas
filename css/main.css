@@ -9,6 +9,14 @@
     scrollbar-width: none; /* Firefox */
 }
 
+body {
+    background: url(../img/back3.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .title {
     font-size: 50px;
     font-weight: 700;
