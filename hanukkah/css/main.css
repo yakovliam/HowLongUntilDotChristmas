@@ -1,0 +1,85 @@
+/* Formatting */
+
+.hide-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.hide-scroll {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+    color: white;
+}
+
+.outer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.inner-title {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#countdown {
+    white-space: pre;
+}
+
+.hanukkah-text {
+    font-family: 'Mountains of Christmas', serif;
+    font-weight: 700;
+}
+
+.hanukkah-text p {
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.num {
+    font-size: 10rem;
+    color: white;
+}
+
+.txt {
+    font-size: 3rem;
+    color: wheat;
+}
+
+@media only screen and (min-width: 850px){
+
+    body {
+        /*  On regular screens, prevent scrolling */
+        overflow: hidden;
+    }
+
+    .wrapped {
+        display: table-cell;
+        word-wrap: break-word;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+
+    .wrapped {
+        /* Fill entire size of wrapper so it is centered... */
+        width: 100%;
+        /* Break on words */
+        word-wrap: break-word;
+        /* Display in table format*/
+        display: table;
+        /* Just in case, align center */
+        text-align: center;
+    }
+}
+
+#ending-text {
+    padding-bottom: 10px;
+}
