@@ -1,4 +1,14 @@
 let christmas = new Date("Dec 25 " + (new Date()).getFullYear());
+let diff = new Date(christmas - Date.now());
+
+// if it is past christmas, then calculate the NEXT year instead
+if(diff <= 0) {
+    let year = christmas.getFullYear();
+    let month = christmas.getMonth();
+    let day = christmas.getDate();
+
+    christmas = new Date(year + 1, month, day);
+}
 
 const task = () => {
     let diff = new Date(christmas - Date.now());

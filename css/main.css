@@ -94,9 +94,6 @@ body {
     top: 10px;
     bottom: 10px;
     text-align: center;
-}
-
-a {
     font-size: 10px;
     font-weight: 700;
     font-family: Montserrat, sans-serif;
@@ -104,6 +101,6 @@ a {
 }
 
 /* mouse over link */
-a:hover {
+a:hover .bottom-text {
     color: #00ffff;
 }
